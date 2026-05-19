@@ -137,10 +137,11 @@ export default function Dashboard() {
     return (
       <div className="min-h-screen bg-background text-foreground flex items-center justify-center p-4">
         <div className="bg-card border border-border shadow-2xl rounded-3xl p-8 max-w-md w-full text-center">
-          <div className="w-16 h-16 rounded-2xl bg-primary/10 text-primary flex items-center justify-center mx-auto mb-6">
-            <Building2 size={32} />
-          </div>
-          <h2 className="text-2xl font-bold mb-2">MBA Intelligence</h2>
+          <h2 className="text-2xl font-bold mb-2">
+            <a href="https://aranyasinha.site" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+              Aranya Sinha
+            </a>
+          </h2>
           <p className="text-muted-foreground mb-8">Choose your preferred viewing experience to begin exploring colleges.</p>
           <div className="grid grid-cols-2 gap-4">
             <button
@@ -173,10 +174,11 @@ export default function Dashboard() {
       <header className="sticky top-0 z-30 border-b border-border bg-background/80 backdrop-blur-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-primary text-primary-foreground flex items-center justify-center font-bold">
-              <Building2 size={18} />
-            </div>
-            <h1 className="text-xl font-semibold tracking-tight hidden sm:block">MBA Intelligence</h1>
+            <h1 className="text-xl font-semibold tracking-tight hidden sm:block">
+              <a href="https://aranyasinha.site" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                Aranya Sinha
+              </a>
+            </h1>
           </div>
           
           <div className="flex-1 max-w-xl mx-4 relative">
